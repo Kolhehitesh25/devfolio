@@ -1,19 +1,32 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
-            "icon" : {
-                "src": "images/education/lorem-ipsum.png"
-            }
+            "title": " Aug 2024 - Feb 2025",
+            "cardTitle": "PG-DAC (Diploma in Advance Computing)",
+            "cardSubtitle":"Sunbeam Institute of Information Technology, Pune",
+            "cardDetailedText": "Percentage - 68.3"
+           
+        },
+
+        {
+            "title": "Nov 2020 - May 2024",
+            "cardTitle": "B.Tech, Computer Science and Engineering",
+            "cardSubtitle":"Acropolis Institute of Technology and Research, Indore",
+            "cardDetailedText": "CGPA - 8.52"
+          
+        },
+       
+        {
+            "title": "Apr 2019",
+            "cardTitle": "High School",
+            "cardSubtitle":"Shiva Academy School, Betma",
+            "cardDetailedText": "Marks - 86.40%"
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "Apr 2017",
+            "cardTitle": "Secondary School",
+            "cardSubtitle":"New Pithampur Public Senior Secondary School, Pithampur",
+            "cardDetailedText": "Marks - 91.33%"
         }
     ]
 }

@@ -1,150 +1,123 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "image" : "images/projects/osms.png",
+            "title": "Online Society management",
+            
+                "bodyText": "- Developed a web platform to automate society management tasks and enhance communication.\n - Implemented role-based access control (Admin, Residents, Staff) with Spring Security & JWT authentication.\nIntegrated Spring Boot + MySQL for efficient backend processing.\n - Built a responsive UI using React.js & Bootstrap for seamless user experience.\n ",
+              
+              
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    "href": "https://github.com/Kolhehitesh25/Online-Society-Management-System"
                 },
                 {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
+                    "text": "Live not yet",
+                    "href": ""
                 }
             ],
             "tags" : [
                 "React",
-                "Portfolio",
-                "JavaScript"
+                "JavaScript",
+                "SpringBoot",
+                "MYSQL",
+                "REST API"
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "image" : "images/projects/cashflow.png",
+            "title": "Cashflow Tracker App",
+            "bodyText": "- This is a project cashflow tracker.\n - It trackes your income and expenses.\n - Completely build using MERN stack technology.\n",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
+                    "href": "https://github.com/Kolhehitesh25/Prod-cashflowTracker"
+                }
+            
+            ],
+            "tags" : [
+                "React js",
+                "Express js",
+                "MongoDB",
+                "Node js"
+            ]
+        },
+        {
+            "image" : "images/projects/portfolio.png",
+            "title": "Personal Portfolio",
+            "bodyText": "- This is my personal portfolio.\n - This showcase all my skills and technology stack.\n - I created number of end to end functionality projects.",
+            "links": [
+                {
+                    "text": "Live ",
+                    "href": "http://localhost:3000/"
+                }
+            ],
+            "tags" : [
+                "React js",
+                "npm",
+                "javascript",
+                "responsive",
+                "materialUI"
+            ]
+        },
+        {
+            "image" : "images/projects/keeper.png",
+            "title": "keeper Appliation",
+            "bodyText": "- React based Applicaton for efficient making notes.\n - Created using javascript library (react js).\n - Helpful for immediate managing the tasks.\n",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Kolhehitesh25/KeeperAPP"
                 },
                 {
                     "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "href": "https://webapp-de8dd.web.app"
                 }
+
             ],
             "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "React js",
+                "javascript",
+                "css",
+                "Firebase"
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+            "image" : "images/projects/blogsite.png",
+            "title": "Blog Appliation",
+            "bodyText": "- Created using Node js , express js .\n - User can manage their blog like create , update , post and delete the blog.\n",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+                    "href": "https://github.com/Kolhehitesh25/BlogWebsite"
                 }
+                
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
+                "Node js",
+                "javascript",
+                "express js"
+                
             ]
         },
+       
         {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
+            "image" : "images/projects/game.png",
+            "title": "Gamison",
+            "bodyText": "-Players must memorize and repeat an ever-growing sequence of colored lights and sounds.\n -Each level adds one new color to the sequence, testing memory and focus.\n",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
+                    "href": "https://github.com/Kolhehitesh25/simon-game"
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "javascript",
+                "Html",
+                "css"
             ]
         }
+       
     ]
 }
